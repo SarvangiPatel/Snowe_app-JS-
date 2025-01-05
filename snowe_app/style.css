@@ -1,0 +1,501 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/* background */
+.menubar{
+    background-image: url('images/bg-main.webp');
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* navigation bar */
+
+.navbar{
+     width: 100%;
+    height: 80px;    
+}
+
+
+.menu1{
+    display: flex;
+}
+.menu1 .list1{
+    padding: 0% 15px;
+    list-style: none;
+    margin-bottom: -16px;
+}
+.list1 a{
+    text-decoration: none;
+    color: white;
+}
+#logo{
+    font-size: 40px;
+    text-decoration: none;
+    /* color: rgb(61 53 56); */
+    color: white;
+    font-weight: 800px;
+}
+
+
+.menu2{
+    display: flex;
+}
+.menu2 .list2{
+    padding: 0% 15px;
+    list-style: none;
+    margin-bottom: -18px;
+}
+.list2 a{
+    text-decoration: none;
+    color: white;
+}
+.drop{
+    list-style: none;
+    position: absolute;
+    left: -120px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    color: #3d3538;
+    display: none;
+}
+.drop a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.user:hover .drop{
+    display: block;
+}
+
+
+.user{
+    position: relative;
+}
+
+.icons{
+    display: flex;
+}
+.icons .list3{
+    padding: 0% 15px;
+    list-style: none;
+    margin-bottom: -18px;
+    font-size: 20px;
+    color: white;
+}
+.list3 .bi-person{
+    font-size: 22px;
+}
+
+
+/* navbar hover */
+.navbar:hover{
+    background-color: white;
+}
+.navbar:hover a{
+    color: rgb(61 53 56); 
+}
+.navbar:hover #logo{
+    color: rgb(61 53 56); 
+}
+.navbar:hover i{
+    color: rgb(61 53 56); 
+}
+
+.banner-text{
+   margin-top: 35px;
+   color: white;
+}
+.banner-text h1{
+    text-align: center;
+    font-size: 74px;
+    padding: 10px 0px;
+    font-weight: bolder;
+}
+.banner-text h3{
+    text-align: center;
+    font-size: 34px;
+    padding: 10px 0px;
+}
+.banner-text button{
+    text-align: center;
+    padding: 15px 120px;
+    transform: translate(-50% -50%);
+    top: 55%;
+    left: 38%;
+    position: absolute;
+    background-color: #3d3538;
+    color: white;
+    font-weight: bolder;
+    border: none;
+}
+
+
+/* banner-2 */
+.banner{
+    background-image: url('images/bg.webp');
+    height: 350px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #3d3538;
+}
+.b-text{
+    width: 65%;
+    text-align: center;
+    transform: translate(-50% -50%);
+    top: 28%;
+    left: 20%;
+    position: absolute;
+}
+
+.circle{
+    height: 90px;
+    position: absolute;
+    transform: translate(-50% -50%);
+    top: 36%;
+    left: 66%;
+}
+.line{
+    height: 50px;
+    position: absolute;
+    transform: translate(-50% -50%);
+    top: 67%;
+    left: 32%;
+}
+
+
+/* contents */
+.contents{
+    height: 300px;
+    background-color:#eff5f8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+
+    height: 200px;
+    width: 15%;
+    color: #3d3538;
+    text-align: center;
+    /* background-color: antiquewhite; */
+}
+.box img{
+    width: 150px;
+    height: 85px;
+}
+.box h6{
+    padding: 20px 0px;
+    font-weight: lighter;
+}
+
+
+/* sleep */
+.sleep{
+    height: 700px;
+    background-color: #eff5f8;
+    margin-top: 1px;
+}
+.sleep .text{
+    padding-top: 30px;
+    text-align: center;
+    color: #3d3538;
+}
+.sleep-box{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+
+}
+.bg{
+    width: 50%;
+    height: 100%;
+}
+.bg img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.sleep-text{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.sleep-text img{
+    height: 200px;
+    width: 300px;
+}
+.sleep-text h5{
+    width: 70%; 
+    margin: auto; 
+    font-weight: lighter;
+    margin-top: 30px;
+}
+.sleep-text h1{
+    margin: auto;
+    content: '';
+    border-bottom: 3px solid black;
+    width: 20%;
+    padding-bottom: 15px;
+}
+.sleep-text h6{
+    margin: auto;
+    content: '';
+    border-bottom: 1px solid black;
+    width: 15%;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    font-size: 13px;
+}
+
+
+/* main */
+.main{
+    height: auto;
+    width: 80%;
+    /* background-color: yellow; */
+    margin: auto;
+}
+.main-text{
+    padding-top: 40px;
+    color: #3d3538;
+    position: relative;
+}
+.main-text h2{
+    font-size: 45px;
+}
+.main-text img{
+    position: absolute;
+    left: 75%;
+    top: 20%;
+    height: 120px;
+}
+#products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+}
+.product{
+    height: 350px;
+    width: 18%;
+
+    margin-top: 40px;
+    color: #3d3538;
+}
+#image{
+    height: 250px;
+    width: 100%;
+}
+#image img{
+    height: 100%;
+    width: 100%;
+}
+#texts{
+    height: 100px;
+}
+.price{
+    display: flex;
+}
+
+
+/* design */
+.design{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.boxes1{
+    width: 55%;
+    height: 100%;
+}
+.boxes1 embed{
+    height: 100%;
+    width: 100%;
+}
+
+.boxes2{
+    width: 45%;
+    height: 100%;
+    padding: 40px;
+    background-color:#3d3538;
+    color: white;
+    position: relative;
+}
+.boxes2 h1{
+    font-size: 55px;
+}
+.boxes2 a{
+    color: aliceblue;
+    position: absolute;
+    top: 400px;
+}
+
+/* magazine */
+.magazine{
+    height: 700px;
+    width: 80%;
+    padding-top: 40px;
+    display: flex;
+    margin: auto;
+}
+.magazine-box1{
+    height: 620px;
+    width: 40%;
+    background-image: url('images/SNOWE_S10IWAI_Bathe_IvoryTowel_HolidayGift135816_800x.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.magazine-box2{
+    width: 60%;
+    height: 620px;
+    padding-left: 50px;
+}
+.pro{
+    width: 100%;
+    height: 153px;
+    margin-top: 20px;
+    display: flex;
+}
+.pro img{
+    height: 153px;
+    width: 150px;
+}
+.pro .texts{
+    padding-left: 20px;
+}
+
+
+/* footer */
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: #3d3538;
+    color: white;
+    display: flex;
+}
+
+.foot1{
+    height: 100%;
+    width: 70%;
+}
+.foot-box{
+    height: 300px;
+    width: 50%;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 7%;
+}
+.foot-box li{
+    list-style: none;
+}
+.foot2{
+    height: 100%;
+    width: 30%;
+}
+.foot2-box{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+.foot2-box h4{
+    padding-top: 40px;
+    content: '';
+    border-bottom: 1px solid white;
+}
+.media{
+    display: flex;
+    margin-top:100px;
+    padding-left: 0px;
+}
+.media li{
+    list-style: none;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.links{
+    display: flex;
+    font-size: 13px;
+    list-style: none;
+    margin-top:30px;
+    padding-left: 0px;
+}
+.links a{
+      text-decoration: none;
+      color: grey;
+      padding-right: 15px;
+}
+
+
+
+
+
+/* description-page style */
+
+.d-navbar{
+    width: 100%;
+    height: 80px;
+    background-color:#3d3538;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.des-container{
+        width: 80%;
+        height: 500px;
+        margin: auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid black;
+}
+
+.des-container #image{
+    height: 400px;
+    width: 400px;
+}
+.des-container .des-text{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+#addbtn{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3d3538;
+    color: white;
+    border: none;
+}
+
+.d-footer{
+    margin-top: 50px;
+}
+
+
+
